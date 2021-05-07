@@ -7,6 +7,7 @@ body{
     background-color: black;
     color:white;
 }
+/* inizio header */
 header{
 
     display: flex;
@@ -23,6 +24,7 @@ header button{
     flex-wrap: wrap;
     height: 100%;
     overflow: auto;
+    align-content: center;
 
 }
 .utente{
@@ -41,10 +43,86 @@ header button{
     bottom: 0;
     left: 0;
 }
+/* inizio main */
 main{
     height: calc(100vh - 150px);
-    padding:0 20px
+    padding-left: 20px;
 }
- .utente .ultima{
-    justify-content: center;
+#ultima{
+    margin-left: 125px;
 }
+/* inizio footer */
+footer{
+    
+    width: 100%;
+    background-color: rgb(65, 64, 64);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+    height: 60px;
+}
+.prima-lista{
+    display: flex;
+}
+ul li{
+    padding-left: 20px;
+    list-style: none;
+}
+ .arrow{
+    margin-top: 5%;
+    font-size: 10px;
+}
+#micro{
+    margin-left: 10px;
+    font-size: 23px;
+}
+#video{
+    margin-left: 20px;
+    font-size: 23px;
+}
+.arrow-2{
+    font-size: 10px;
+    margin-top: 2%; 
+}
+#people{
+    margin-left: 45px;
+    font-size: 23px;
+}
+#video-green{
+    margin-left: 28px;
+    color: green;
+    font-size: 23px;
+}
+#commento{
+    margin-left: 6px;
+    font-size: 23px;
+    color: white;
+}
+#bersaglio{
+    margin-left: 10px;
+    font-size: 23px;
+}
+#windows{
+    margin-left: 40px;
+    font-size: 23px;
+}  
+#puntini{
+    margin-left: 4px;
+    font-size: 23px; 
+}
+.right{
+    display: flex;
+    align-items: center;
+    
+}
+.end{
+    color: red;
+    background-color:rgb(160, 148, 148) ;
+   
+    height: 147%;
+    margin-right: -9px;
+    
+}
+
+
